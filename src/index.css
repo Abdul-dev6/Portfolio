@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.noto-chorasmian{
+    font-family: "Roboto Slab", serif;
+}
+body{
+        font-family: "Roboto Slab", serif;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+

@@ -1,0 +1,277 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.ani {
+    width: 13ch;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20) infinite alternate-reverse;
+}
+
+.wa {
+    position: absolute;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    width: 22rem;
+    top: 116%;
+    left: 20%;
+    transform: translate(-50%, -50%) translateY(-10px);
+    animation: trans 2s;
+    background-image: url("./a-img.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0.2rem solid white;
+    box-shadow:
+        0 0 1rem white,
+        inset 0 0 0.5rem white,
+        0 0 1rem rgb(253, 186, 116),
+        inset 0 0 1rem rgb(253, 186, 116),
+        0 0 2rem rgb(253, 186, 116),
+        inset 0 0 1.5rem rgb(253, 186, 116);
+}
+
+.wc {
+    top: 42.5%;
+    left: 70%;
+    transform: translate(-50%, -50%) translateY(-10px);
+    background-image: url("./a-img.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes typing {
+    from {
+        max-width: 0ch;
+    }
+
+    to {
+        max-width: 13ch;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@media (min-width: 1400px) {
+    .width {
+
+        width: 20.8%;
+    }
+
+}
+
+
+
+
+@media (max-width: 1399px) and (min-width: 1024px) {
+    .mw {
+        width: 70%;
+    }
+
+    .wc {
+        width: 33%;
+        top: 40%;
+        /* now it works! */
+    }
+
+    .wa {
+        top: 110%;
+        margin-left: 2rem;
+
+    }
+
+    nav.top-0 {
+        top: -15px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .ml {
+        padding-left: 2rem;
+
+    }
+
+    .mw {
+        width: 23rem;
+    }
+
+    .wc {
+        width: 43%;
+        top: 38%;
+        left: 77%;
+        /* now it works! */
+    }
+
+    .wa {
+        top: 107%;
+        margin-left: 2rem;
+        width: 42%;
+
+    }
+
+    .pm {
+        width: 25rem;
+    }
+
+    .wl {
+        display: flex;
+        flex-direction: column;
+        width: 18rem;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 481px) {
+    .ml {
+        padding-left: 2rem;
+        padding-top: 4rem;
+
+    }
+
+    .mw {
+        width: 22.5rem;
+        font-size: 1rem;
+
+    }
+
+    .ft {
+        font-size: 1.5rem;
+    }
+
+    .fl {
+        font-size: 1.2rem;
+    }
+
+  .wc {
+    position: absolute;
+    left:116.5%;
+    width: 16.5rem;
+    top: 37%;
+  }
+   .wa {
+        top: 125%;
+        margin-left: 2rem;
+        width: 50%;
+
+    }
+    .pm{
+        font-size: 1rem;
+        width: 27rem;
+    }
+    .pcc{
+        padding-left: 15rem;
+    }
+    .pccc{
+                padding-left: 14rem;
+
+    }
+    .pct{
+       margin-left: 14rem;
+    }
+      .pctw{
+        width: 125%;
+      }
+      .mm{
+        padding-left: 3rem;
+      }
+}
+@media (max-width: 480px) {
+     .ml {
+        padding-left: 2rem;
+        padding-top: 4rem;
+
+    }
+
+    .mw {
+        width: 22.5rem;
+        font-size: 1rem;
+
+    }
+
+    .ft {
+        font-size: 1.5rem;
+    }
+
+    .fl {
+        font-size: 1.2rem;
+    }
+
+  .wc {
+    position: absolute;
+    left:116.5%;
+    width: 16.5rem;
+    top: 37%;
+  }
+   .wa {
+        top: 125%;
+        margin-left: 2rem;
+        width: 50%;
+
+    }
+    .pm{
+        font-size: 1rem;
+        width: 27rem;
+    }
+    .pcc{
+        padding-left: 15rem;
+    }
+    .pccc{
+                padding-left: 14rem;
+
+    }
+    .pct{
+       margin-left: 14rem;
+    }
+      .pctw{
+        width: 125%;
+      }
+      .mm{
+        padding-left: 3rem;
+      }
+}
+@media (min-width: 3840px) {
+  .mw {
+        width: 90%;
+    }
+
+    .wc {
+        width: 15%;
+        top: 50%;
+        /* now it works! */
+    }
+
+    .wa {
+        top: 121%;
+        margin-left: 2rem;
+width: 30rem;
+
+    }
+
+   .pcc{
+   
+    padding-top: 2rem;
+    width: 100%;
+   }
+.it{
+    display: flex;
+    align-items: center;
+    
+
+}
+.its{
+    gap: 5rem;
+}
+.pctw{
+    width: 180%;
+    margin-top: 40px;
+}
+.mm{
+    padding-left: 20rem;
+}
+  
+}
